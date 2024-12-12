@@ -1,0 +1,176 @@
+body{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+@media (max-width: 800px) {
+    .flex-container1 {
+      flex-direction: column;
+    }
+  }
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 15px;
+    font-size: 25px;
+    font-family: "Sour Gummy", sans-serif;
+    
+}
+nav ul li a {
+    color: #AA1D39;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #c58793;
+    text-decoration: underline;
+}
+#intro {
+    font-size: 36px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+    color: #AA1D39;
+    align-self: flex-end;
+}
+.logo{
+    width: 130px;
+    height: 100px;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+@media (max-width: 800px) {
+    .about {
+      flex-direction: column;
+    }
+  }
+#about
+{
+    font-size: 36px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+    color: #AA1D39;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+@media (max-width: 800px) {
+    .flex-container2 {
+      flex-direction: column;
+    }
+  }
+
+.profilepic{
+    width: 300px;
+    height: 300px;
+    border-radius: 90%;
+    object-fit: cover;
+    margin: 20px auto;
+}
+#aboutpara{
+    font-size: 18px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+    width: 700px;
+    color: #AA1D39;
+}
+
+#works{
+    font-size: 36px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+    color: #AA1D39;
+}
+
+#contact{
+    
+    font-size: 36px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+    color: #AA1D39;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+@media (max-width: 800px) {
+    .workframe {
+      flex-direction: column;
+    }
+  }
+.mockup
+{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 20px auto;
+}
+h2{
+    font-size: 24px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+    color: #AA1D39;
+    
+}
+.work1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+
+}
+.flex-container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cdetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width: 30px;
+    height: 30px
+}
+.contactdet{
+    font-size: 18px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 300;
+    color: #AA1D39;
+
+}
